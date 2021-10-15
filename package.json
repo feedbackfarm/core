@@ -1,0 +1,41 @@
+{
+  "name": "@feedbackfarm/core",
+  "version": "1.0.5",
+  "description": "This package allow you to send feedback to the feedback.farm application.",
+  "main": "lib/FeedbackCore.js",
+  "types": "lib/FeedbackCore.d.ts",
+  "homepage": "https://feedback.farm",
+  "bugs": {
+    "url": "https://github.com/feedbackfarm/core/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feedbackfarm/core.git"
+  },
+  "scripts": {
+    "build": "npx typescript",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "Get Feedback",
+    "Feedback",
+    "SaaS"
+  ],
+  "author": "codemers",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.4.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.4.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {}
+}
