@@ -1,6 +1,6 @@
 {
   "name": "@feedbackfarm/core",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This package allow you to send feedback to the feedback.farm application.",
   "main": "lib/FeedbackCore.js",
   "types": "lib/FeedbackCore.d.ts",
