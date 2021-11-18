@@ -36,7 +36,7 @@ async function handleSubmitFeedback() {
 | -------------- | :----: | :---------------------------------------------------------------------- | :------: |
 | `projectId`    | string | Project identifier available on [feedback.farm](feedback.farm) platform |    ✅    |
 | `feedbackText` | string | User feedback                                                           |    ✅    |
-| `type`         | string | BUG | FEATURE | OTHER                                                   |    ✅    |
+| `type`         | string | BUG ; FEATURE ; OTHER                                                   |    ✅    |
 | `identifier`   | string | User identifier (email, id, ...)                                        |          |
 | `pageName`     | string | Page name / page url                                                    |          |
 
