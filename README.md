@@ -24,6 +24,7 @@ async function handleSubmitFeedback() {
     const result = await sendFeedback(
         projectId,
         feedbackText,
+        type,
         identifier,
         pageName
     );
