@@ -1,4 +1,4 @@
-const apiRoute = 'https://api.feedback.farm/addFeedback';
+const apiRoute = 'https://api.feedback.farm/api/feedbacks/add';
 type FeedbackType = 'BUG' | 'FEATURE' | 'OTHER';
 
 async function sendFeedback(
