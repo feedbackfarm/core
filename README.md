@@ -40,5 +40,6 @@ async function handleSubmitFeedback() {
 | `type`         | BUG ; FEATURE ; OTHER | Feedback type                                                           |    ✅    |
 | `identifier`   |        string         | User identifier (email, id, ...)                                        |          |
 | `pageName`     |        string         | Page name / page url                                                    |          |
+| `logs`         |         Log[]         | Logs                                                                    |          |
 
 Full [documentation](https://www.notion.so/Build-Your-Own-Widget-fb729b98e1694d7c8bc019b4d19622c9)
