@@ -1,3 +1,5 @@
+This package is archived.
+
 # @feedbackfarm/core
 
 [Feedback.farm](https://feedback.farm) core api
